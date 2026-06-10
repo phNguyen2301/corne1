@@ -91,10 +91,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1      &kp N2      &kp N3    &kp N4  &kp N5       &kp NUMBER_6  &kp N7    &kp N8    &kp N9     &kp N0  &kp DELETE
-&bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &trans    &trans  &trans       &kp LEFT      &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp DEL
-&trans      &trans      &trans      &trans    &trans  &trans       &trans        &trans    &trans    &trans     &trans  &trans
-                                    &kp LGUI  &trans  &kp SPACE    &kp RET       &trans    &kp RALT
+&kp ESCAPE  &kp N1     &kp N2     &kp N3      &kp N4      &kp N5        &kp NUMBER_6  &kp N7    &kp N8    &kp N9     &kp N0  &kp DELETE
+&trans      &kp MINUS  &kp EQUAL  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR    &kp LEFT      &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp DEL
+&trans      &trans     &trans     &trans      &trans      &trans        &trans        &trans    &trans    &trans     &trans  &trans
+                                  &kp LGUI    &trans      &kp SPACE     &kp RET       &trans    &kp RALT
             >;
         };
 
@@ -108,9 +108,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp F6          &kp F7          &kp F8         &kp F9            &kp F10   &kp C_VOL_UP
-&kp LCTRL  &kp F11  &kp F12  &trans    &trans  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT         &kp BSLH  &kp C_VOL_DN
-&kp LSHFT  &trans   &trans   &trans    &trans  &trans       &kp UNDER       &kp PLUS        &kp LESS_THAN  &kp GREATER_THAN  &kp PIPE  &kp TILDE
+&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp F6          &kp F7          &kp F8        &kp F9     &kp F10  &kp C_VOL_UP
+&kp LCTRL  &kp F11  &kp F12  &trans    &trans  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &kp C_VOL_DN
+&kp LSHFT  &trans   &trans   &trans    &trans  &trans       &trans          &trans          &trans        &trans     &trans   &trans
                              &kp LGUI  &trans  &kp SPACE    &kp RET         &trans          &kp RALT
             >;
         };
